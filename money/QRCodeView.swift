@@ -64,7 +64,7 @@ struct QRCodeView: View {
         .navigationBarTitle("QR Code", displayMode: .inline)
         .navigationBarItems(trailing: Button(action: {
             let url = URL(string: "https://mooney.app")
-            let av = UIActivityViewController(activityItems: [url!, "Tontine Inc.", "Mooney"], applicationActivities: nil)
+            let av = UIActivityViewController(activityItems: [url!, "Mooney, the honeymoon of your money", ""], applicationActivities: nil)
             
             UIApplication.shared.windows.first?.rootViewController?.present(av, animated: true, completion: nil)
         }){
