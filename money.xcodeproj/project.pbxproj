@@ -11,6 +11,8 @@
 		9A73AB0027F8CB02000E1521 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A73AAFF27F8CB02000E1521 /* ContentView.swift */; };
 		9A73AB0227F8CB05000E1521 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A73AB0127F8CB05000E1521 /* Assets.xcassets */; };
 		9A73AB0527F8CB05000E1521 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A73AB0427F8CB05000E1521 /* Preview Assets.xcassets */; };
+		9A73AB0E27F8CC9C000E1521 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A73AB0D27F8CC9C000E1521 /* SettingsView.swift */; };
+		9A73AB1127F8F630000E1521 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A73AB1027F8F630000E1521 /* AboutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		9A73AB0127F8CB05000E1521 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A73AB0427F8CB05000E1521 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9A73AB0627F8CB05000E1521 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A73AB0D27F8CC9C000E1521 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		9A73AB1027F8F630000E1521 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				9A73AAFD27F8CB02000E1521 /* moneyApp.swift */,
 				9A73AAFF27F8CB02000E1521 /* ContentView.swift */,
+				9A73AB0D27F8CC9C000E1521 /* SettingsView.swift */,
+				9A73AB1027F8F630000E1521 /* AboutView.swift */,
 				9A73AB0127F8CB05000E1521 /* Assets.xcassets */,
 				9A73AB0627F8CB05000E1521 /* Info.plist */,
 				9A73AB0327F8CB05000E1521 /* Preview Content */,
@@ -138,6 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A73AB1127F8F630000E1521 /* AboutView.swift in Sources */,
+				9A73AB0E27F8CC9C000E1521 /* SettingsView.swift in Sources */,
 				9A73AB0027F8CB02000E1521 /* ContentView.swift in Sources */,
 				9A73AAFE27F8CB02000E1521 /* moneyApp.swift in Sources */,
 			);
@@ -280,7 +288,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ekimkael.money;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -302,7 +310,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ekimkael.money;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
