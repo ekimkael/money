@@ -24,8 +24,13 @@ struct LoginView: View {
                         Text($0).tag($0)
                     }
                 }
-                TextField("phone number", text: $phoneNumber)
-                    .keyboardType(.numberPad)
+                HStack {
+                    Text("+237")
+                        .padding(.trailing, 8)
+                        .overlay(Rectangle().frame(width: 1, height: nil, alignment: .trailing).foregroundColor(Color.gray), alignment: .trailing)
+                    TextField("phone number", text: $phoneNumber)
+                        .keyboardType(.numberPad)
+                }
                 SecureField("PIN", text: $pin)
             }
             
