@@ -13,6 +13,7 @@
 		9A73AB0527F8CB05000E1521 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A73AB0427F8CB05000E1521 /* Preview Assets.xcassets */; };
 		9A73AB0E27F8CC9C000E1521 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A73AB0D27F8CC9C000E1521 /* SettingsView.swift */; };
 		9A73AB1127F8F630000E1521 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A73AB1027F8F630000E1521 /* AboutView.swift */; };
+		9AC60B8B28066172001075EB /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC60B8A28066172001075EB /* LoginView.swift */; };
 		9AD21A0727FA462900F6F5ED /* QRCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD21A0627FA462900F6F5ED /* QRCodeView.swift */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 		9A73AB0627F8CB05000E1521 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A73AB0D27F8CC9C000E1521 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		9A73AB1027F8F630000E1521 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		9AC60B8A28066172001075EB /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		9AD21A0627FA462900F6F5ED /* QRCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -60,6 +62,7 @@
 			children = (
 				9A73AAFD27F8CB02000E1521 /* moneyApp.swift */,
 				9A73AAFF27F8CB02000E1521 /* ContentView.swift */,
+				9AC60B8A28066172001075EB /* LoginView.swift */,
 				9A73AB0D27F8CC9C000E1521 /* SettingsView.swift */,
 				9AD21A0627FA462900F6F5ED /* QRCodeView.swift */,
 				9A73AB1027F8F630000E1521 /* AboutView.swift */,
@@ -147,6 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AC60B8B28066172001075EB /* LoginView.swift in Sources */,
 				9A73AB1127F8F630000E1521 /* AboutView.swift in Sources */,
 				9A73AB0E27F8CC9C000E1521 /* SettingsView.swift in Sources */,
 				9AD21A0727FA462900F6F5ED /* QRCodeView.swift in Sources */,

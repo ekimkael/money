@@ -39,7 +39,7 @@ struct ContentView: View {
                                 .font(.callout)
                                 .fontWeight(.bold)
                             Spacer()
-                            NavigationLink(destination: Text("Placeholder")) {
+                            NavigationLink(destination: LoginView()) {
                                 Text("See more")
                                     .font(.callout)
                                     .fontWeight(.bold)

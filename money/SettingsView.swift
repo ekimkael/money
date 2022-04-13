@@ -12,7 +12,7 @@ struct SettingsView: View {
     @State private var isShowingDetailView = false
     
     var body: some View {
-        NavigationLink(destination: QRCodeView(), isActive: $isShowingDetailView){}
+        NavigationLink(destination: QRCodeView(), isActive: $isShowingDetailView){EmptyView()}
         
         List {
             Section{
